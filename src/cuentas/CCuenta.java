@@ -54,7 +54,7 @@ public class CCuenta {
         setSaldo(getSaldo() - cantidad);
     }
 
-	private String getNombre() {
+	public String getNombre() {
 		return nombre;
 	}
 
